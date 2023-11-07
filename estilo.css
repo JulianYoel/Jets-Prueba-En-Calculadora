@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.Calculadora {
+    border-color: rgb(0, 0, 0);
+    width: 314px;
+    margin: 0 auto;
+    background-color: #ffffff58;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.791);
+    }  
+  
+
+  #pantalla {    
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  input[type="button"] {
+    width: 70px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: #655e5e6a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    ;
+  }
+  input[type="button"]:hover {
+    background-color: #ddddddb8;
+    transform: scale(1.2);
+    transition-duration: 1Ss;
+  }
+  
+  input[type="button"]:last-child {
+    margin: 10px 2px;
+  }

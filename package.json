@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jete": "^0.10.7",
+    "jeti": "^0.8.6"
+    
+  },
+  "scripts": {   
+    "test": "jest"
+  },
+  "type": "module"
+}

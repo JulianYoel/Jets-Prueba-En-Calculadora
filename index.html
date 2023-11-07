@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Calculadora</title>
+
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    
+
+</head>
+<body>
+    <h1>Calculadora de Práctica</h1>
+    <div class = "Calculadora">
+        <input type="text" id = "pantalla" readonly>
+        <br>
+        <input type="button" value="1" onclick="agregar('1')">
+        <input type="button" value="2" onclick="agregar('2')">
+        <input type="button" value="3" onclick="agregar('3')">
+        <input type="button" value="+" onclick="agregar('+')">
+        <br>
+        <input type="button" value="4" onclick="agregar('4')">
+        <input type="button" value="5" onclick="agregar('5')">
+        <input type="button" value="6" onclick="agregar('6')">
+        <input type="button" value="-" onclick="agregar('-')">
+        <br>
+        <input type="button" value="7" onclick="agregar('7')">
+        <input type="button" value="8" onclick="agregar('8')">
+        <input type="button" value="9" onclick="agregar('9')">
+        <input type="button" value="*" onclick="agregar('*')">
+        <br>
+        <input type="button" value="0" onclick="agregar('0')">
+        <input type="button" value="." onclick="agregar('.')">
+        <input type="button" value="/" onclick="agregar('/')">
+        <input type="button" value="=" onclick="igual()">
+        <br>
+        <input type="button" value="C" onclick="borrar()">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
